@@ -5,7 +5,7 @@ int main() {
 	int _i = 3;
 	int _p = 2;		
   // Change type
-	_res =  _i / (float) _p; // Change the dividend a float type
+	_res =  _i / (float) _p; // Change the divisor a float type
   
 	//This prints out 1.000000 because the / is an integer division
 	//TODO: please modify the expression above (in line 9) so the division yields a real number (1.500000 in this case) WITHOUT changing the declared type of _i or _p.	
